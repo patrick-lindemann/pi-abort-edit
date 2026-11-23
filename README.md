@@ -12,13 +12,13 @@ Requires Pi 1.6 or later. Disable `pi-abort-recall` first if it is installed; bo
 
 ```sh
 pi remove npm:pi-abort-recall
-pi install npm:pi-abort-edit
+pi install npm:@patrick-lindemann/pi-abort-edit
 ```
 
 To try it for one session without loading other extensions:
 
 ```sh
-pi --no-extensions -e npm:pi-abort-edit
+pi --no-extensions -e npm:@patrick-lindemann/pi-abort-edit
 ```
 
 ## Develop
