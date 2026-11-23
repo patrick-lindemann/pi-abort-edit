@@ -1,0 +1,39 @@
+{
+  "name": "pi-abort-edit",
+  "version": "0.1.0",
+  "description": "Return an interrupted Pi prompt to the editor and remove it from the active chat",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrick-lindemann/pi-abort-edit.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "files": [
+    "src",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "check": "tsc && biome check",
+    "format": "biome check --write",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.6.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.8",
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2"
+  }
+}
