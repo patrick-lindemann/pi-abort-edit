@@ -1,6 +1,6 @@
 {
   "name": "@patrick-lindemann/pi-abort-edit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Return an interrupted Pi prompt to the editor and remove it from the active chat",
   "license": "MIT",
   "repository": {
